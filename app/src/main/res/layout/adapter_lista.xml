@@ -45,13 +45,13 @@
 
         <ImageView
             android:id="@+id/imgRam"
-            android:layout_width="50dp"
+            android:layout_width="49dp"
             android:layout_height="37dp"
             app:srcCompat="@drawable/ram" />
 
         <TextView
             android:id="@+id/txtRam"
-            android:layout_width="60dp"
+            android:layout_width="61dp"
             android:layout_height="match_parent"
             android:text="Ram"
             android:textAlignment="center"
@@ -61,19 +61,19 @@
             android:gravity="center_horizontal" />
 
         <LinearLayout
-            android:layout_width="24dp"
+            android:layout_width="15dp"
             android:layout_height="match_parent">
         </LinearLayout>
 
         <ImageView
             android:id="@+id/imgCpu"
-            android:layout_width="50dp"
+            android:layout_width="49dp"
             android:layout_height="37dp"
             app:srcCompat="@drawable/processor" />
 
         <TextView
             android:id="@+id/txtCpu"
-            android:layout_width="60dp"
+            android:layout_width="61dp"
             android:layout_height="match_parent"
             android:text="Cpu"
             android:textAlignment="center"
@@ -83,26 +83,24 @@
             android:gravity="center_horizontal" />
 
         <LinearLayout
-            android:layout_width="24dp"
+            android:layout_width="15dp"
             android:layout_height="match_parent">
         </LinearLayout>
 
         <ImageView
             android:id="@+id/imgDisco"
-            android:layout_width="50dp"
+            android:layout_width="49dp"
             android:layout_height="37dp"
             app:srcCompat="@drawable/disco" />
 
         <TextView
             android:id="@+id/txtDisco"
-            android:layout_width="60dp"
+            android:layout_width="76dp"
             android:layout_height="match_parent"
             android:text="Disco"
-            android:textAlignment="center"
             android:textColor="@android:color/black"
             android:layout_marginTop="5dp"
-            android:textSize="18sp"
-            android:gravity="center_horizontal" />
+            android:textSize="18sp" />
 
     </LinearLayout>
 

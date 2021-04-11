@@ -71,7 +71,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void configuraActionBar() {
         ActionBar actionBar = getSupportActionBar();
-        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#CC6200EE"));
+        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#6200EE"));
 
         if (actionBar != null) actionBar.setBackgroundDrawable(colorDrawable);
     }

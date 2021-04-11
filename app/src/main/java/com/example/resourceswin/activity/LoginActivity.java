@@ -1,8 +1,11 @@
 package com.example.resourceswin.activity;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,6 +21,7 @@ public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        configuraActionBar();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
@@ -63,6 +67,13 @@ public class LoginActivity extends AppCompatActivity {
         botaoAcessar = findViewById(R.id.btnAcessar);
         campoUsuario = findViewById(R.id.edtUsuario);
         campoSenha = findViewById(R.id.edtSenha);
+    }
+
+    public void configuraActionBar() {
+        ActionBar actionBar = getSupportActionBar();
+        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#CC6200EE"));
+
+        if (actionBar != null) actionBar.setBackgroundDrawable(colorDrawable);
     }
 
 }

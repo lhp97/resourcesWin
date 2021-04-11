@@ -32,24 +32,23 @@
 
     <TextView
         android:id="@+id/logoWin"
-        android:layout_width="249dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="110dp"
-        android:layout_marginBottom="90dp"
-        android:autoText="false"
-        android:freezesText="false"
+        android:layout_width="331dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="50dp"
         android:shadowColor="#6200EE"
         android:shadowRadius="20"
         android:text="Resources Win"
-        android:textAllCaps="false"
         android:textColor="#FFF"
-        android:textSize="44sp"
+        android:textSize="55sp"
         android:textStyle="bold"
+        android:textAlignment="center"
         app:fontFamily="@font/bangers"
         app:layout_constraintBottom_toTopOf="@+id/edtUsuario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
 
     <EditText
         android:id="@+id/edtUsuario"
@@ -82,7 +81,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
-        android:layout_marginBottom="90dp"
+        android:layout_marginBottom="100dp"
         android:background="@drawable/caixa_texto"
         android:ems="10"
         android:hint="Senha"
